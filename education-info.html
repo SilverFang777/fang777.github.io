@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RESUME ▏ Education</title>
+    <link rel="icon" href="4fef3b4a89b8434742722ed7227c06e1.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html"><image src="Gray Minimalist Web Development Linkedin Banner.png" width="100%" alt="Photo not found"></image></a>
+    </div>
+
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="per-info.html">Personal Information</a>
+        <a class="active" href="education-info.html">Education</a>
+        <a href="skill-info.html">Experience&Skill</a>
+        <a href="contact-info.html" class="right">Contact Me</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <div class="side-photo">
+                <p align="center">
+                    <image src="chadman.jpg" height="400px" alt="Photo not found"></image>
+                </p>
+            </div>
+            <div class="smol">
+                <h2>Pongpon R.</h2>
+                <h3>Engineering Student</h3>
+                <p>KMUTNB</p>
+            </div><br>
+            <h3>My Social Media</h3>
+            <a href="mailto:s6201072610121@email.kmutnb.ac.th" class="fa fa-google"></a>
+            <a href="https://www.facebook.com/hellofang777" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/mem0mo_ment.21/" class="fa fa-instagram"></a>
+            <p align="center">
+                <video width="320" height="240" controls="controls" autoplay="autoplay">
+                    <source src="yt1s.com - HD Epic Sax Gandalf_720p.mp4" type="video/mp4">Your browser does not support
+                    the video tag.
+                </video>
+            </p>
+        </div>
+        <div class="main">
+            <h2>Education Record</h2>
+            <h5>This is information About my Educational:</h5>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Secondary')">Secondary School</button>
+                <button class="tablinks" onclick="openCity(event, 'Technical')">Technical College </button>
+                <button class="tablinks" onclick="openCity(event, 'University')">University</button>
+            </div>
+
+            <div id="Secondary" class="tabcontent">
+                <table>
+                    <tr>
+                        <td width="20%">
+                            <p align="center">
+                                <image src="SP.png" width="200px" alt="Photo not found"></image>
+                            </p>
+                        </td>
+                        <td>
+                            <h3>Samutprakan School</h3>
+                            <p>Junior High School : Grade 7-9</p>
+                            <p>Since : May,2013 - March,2016</p>
+                            <p>GPAX : 2.37</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="Technical" class="tabcontent">
+                <table>
+                    <tr>
+                        <td width="20%">
+                            <p align="center">
+                                <image src="SPTC.PNG" width="200px" alt="Photo not found"></image>
+                            </p>
+                        </td>
+                        <td>
+                            <h3>Samutprakan Technical College</h3>
+                            <p>Vocational Certificate : 1-3</p>
+                            <p>Since : May,2016 - March,2018</p>
+                            <p>GPAX : 3.41</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="University" class="tabcontent">
+                <table>
+                    <tr>
+                        <td width="20%">
+                            <p align="center">
+                                <image src="KMUTNB.png" width="200px" alt="Photo not found"></image>
+                            </p>
+                        </td>
+                        <td>
+                            <h3>King Mongkut's University of Technology North Bangkok</h3>
+                            <p>Faculty of Engineering</p>
+                            <p>Department of Instrumentation and Electronics Engineering</p>
+                            <p>Since : June,2019 - Present</p>
+                            <p>GPAX : 2.10</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h5>References: Wongsakorn Wongsaroj D.Eng, Assistant Professor, King Mongkut's University of Technology
+            North Bangkok, Tel. 084-2356417. Thanakrit Namwong, Position: Control&Instrument
+            Engineer GULF PD TEL: 0982507019</h5>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  window.onscroll = function() {scrollFunction()};
+    </script>
+
+</body>
+
+</html>
